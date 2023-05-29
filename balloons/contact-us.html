@@ -14,5 +14,29 @@
         </ul>
         <p>We provide a wide range of services including balloon manufacturing, repair, restoration and customisation. Whatever your balloon needs are, our team of expert engineers are on here to help.</p> 
         <p>Please feel free to <a href="mailto:balloons@example.com">send us an email</a> if you would like to know more about our products</p>   
+        <form action=>
+            <div class="form-control">
+            <label for="fullName">Your full name</label>
+            <input required id="fullName" type="text" name="fullName" />
+            </div>
+            
+            <div class="form-control">
+            <label for="email">Your email address</label>
+            <input required id="email" type="email" name="email_address" />
+            </div>
+            
+            <div class="form-control">
+            <label for="age">Your age</Label>
+            <input type="number" name="age" id="age“ min="1" max="150">
+            </div>
+            
+            <div class="form-control">
+            <label for="story">Your story</Label>
+            <textarea id="story" name="story"></textarea>
+            </div>
+           
+            <input type="submit" value="Go!" />
+
+        </form>
     </body>
 </html>
